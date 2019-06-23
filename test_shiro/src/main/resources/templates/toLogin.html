@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <form method="post" action="/submitLogin">
+        <label>用户名:</label><input name="username"><br>
+        <label>密码:</label><input name="password"><br>
+        <button>登录</button>
+        <h1 th:text="${msg}"></h1>
+    </form>
+</body>
+</html>
